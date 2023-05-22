@@ -13,3 +13,13 @@ console.log(typeof(20))
 console.log(typeof("Twenty"))
 console.log(typeof(null))
 console.log(typeof(undefined))
+
+//muñecas y payasos venta
+numMuñecas = 14;
+numPayasos= 27; 
+ pesoMuñeca = 75; 
+ pesoPayaso = 112;
+ totalPesoMuñecas = numMuñecas*pesoMuñeca; 
+ totalPesoPayasos= numPayasos*pesoPayaso;
+ totalPedido = totalPesoMuñecas + totalPesoPayasos;
+console.log(totalPedido);
