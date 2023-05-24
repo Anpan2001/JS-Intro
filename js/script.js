@@ -168,3 +168,19 @@ function saludo() {
 let nombreFunción = saludo(nombre);
 
 console.log("Personas que iniciaron sesión hoy: " + nombreFunción);
+
+/*
+Else
+
+Utilizamos esta instrucción o sentencia para especificar que un bloque de código se ejecutará si la condición es verdadera, y otro bloque de código se ejecuta en caso de que la condición sea falsa.
+
+Estructura básica del Else
+
+if (condición) {
+
+}
+
+else {
+
+}
+*/
