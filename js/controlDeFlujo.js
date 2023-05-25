@@ -53,5 +53,46 @@ let edadAcesso = 18;
 if (edadAxel < edadAcesso) {
     console.log("Lo siento, no puedes entrar");
 } else {
-    console.log("Pásele")
+    console.log("Pásele");
 } 
+
+/*
+Estructura basica del else if
+
+
+if (condicion 1) {
+    //bloque de codigo que se ejecuta si la condicion 1 es verdadera
+} else if (condicion 2){
+    //bloque de codigo que se ejecuta si la condicion 1 es falsa y la condicion 2 es verdadera
+} else if (condicion 3){
+    //bloque de codigo se ejecuta si la condicon 1 es falsa, y si la condicon 2 tambien es falsa
+}else{
+    //bloque de codigo que se ejecuta si la condicion 1, 2 y 3 son falsas
+}
+
+
+Se pueden anidar x cantidad de else if entre el if que evalua la condicion inicial y el else que termina toda la expresion.
+
+
+edadDeDavid = 19;
+edadPermitida = 18;
+dineroDeDavid = 20;
+coverDelAntro = 150;
+
+if (edadDeDavid > edadPermitida){
+    console.log "Pasa rey.";
+} else if (dineroDeDavid > coverDelAntro){
+    console.log("David, puedes entrar.");
+} else {
+    console.log("No acabalas.");
+}
+*/
+
+let hora = prompt("Ingrese la hora actual");
+if (hora < 12){
+    console.log("Gu mornin");
+} else if (hora <=19){
+    console.log ("Wenas tardes");
+} else{
+    console.log("A mimir");
+}
