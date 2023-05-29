@@ -54,7 +54,7 @@ if (edadAxel < edadAcesso) {
     console.log("Lo siento, no puedes entrar");
 } else {
     console.log("Pásele");
-} 
+}
 
 /*
 Estructura basica del else if
@@ -89,10 +89,97 @@ if (edadDeDavid > edadPermitida){
 */
 
 let hora = prompt("Ingrese la hora actual");
-if (hora < 12){
+if (hora < 12) {
     console.log("Gu mornin");
-} else if (hora <=19){
-    console.log ("Wenas tardes");
-} else{
+} else if (hora <= 19) {
+    console.log("Wenas tardes");
+} else {
     console.log("A mimir");
 }
+
+/*Switch
+
+Esta condicional nos permite hacer multiples operaciones y tomar decisiones en funcion de distintos estados de las variables. 
+Evalua una expresion comparando el valor de un dato o variable, y ejecutando la instruccion asociada a ese caso.
+
+
+ - case: Evalua el caso o condicion asociado que dispara un bloque de codigo
+ - break: Termina el proceso sin que tengamos que pasar por todas las iteraciones o casos.
+ - default: Termina el proceso en caso de que ninguna de las evaluaciones sea la correcta (similar al else)
+
+
+
+switch (expresion o condicion){
+    case valor1:
+        //Codigo que se ejecuta si la condicion es igual a valor1
+    break;
+
+    case valor2:
+        //Codigo que se ejecuta si la condicion es igual a valor2
+    break;
+
+    case valor3:
+        //Codigo que se ejecuta si la condicion es igual a valor3
+    break;
+
+    case valor4:
+        //Codigo que se ejecuta si la condicion es igual a valor4
+    break;
+
+    case valor5:
+        //Codigo que se ejecuta si la condicion es igual a valor5
+    break;
+
+    default:
+        //Ingresaste un piso incorrecto (un bloque de codigo que se ejecuta si no se cumple con ninguna de las condiciones anteriores)
+}
+
+*/
+
+let pisoDestino = prompt("Ingresa el piso al que quieras ir (1 al 5)");
+
+switch (pisoDestino) {
+    //para jugar con nuestros casos, el tipo de dato debe coincidir para que se ejecute correctamente
+
+    case "1":
+        console.log("Vamos a piso 1");
+        comprar();
+        break;
+
+    case "2":
+        console.log("Vamos a piso 2");
+        vender();
+        break;
+
+    case "3":
+        console.log("Vamos a piso 3 (suena musica de elevador de fondo)");
+        break;
+
+    case "4":
+        console.log("Vamos a piso 4 (suena musica de elevador de fondo)");
+        break;
+
+    case "5":
+        console.log("Vamos a piso 4 (suena musica de elevador de fondo)")
+        break;
+
+    default:
+        console.log("lngresaste un piso que no es valido");
+}
+
+//Eevee
+var elementoEvolución = prompt("Ingresa el elemento con el que evolucianarás a tu Pokémon")
+
+switch (elementoEvolución) { 
+    case "piedraFuego":
+        console.log("Tu Eevee ha evolucionado a Flareon");
+        break;
+
+    case "piedraTrueno":
+        console.log("Tu Eevee ha evolucionado a Jolteon");
+        break;
+}
+
+//Horóscopo
+
+var signoZodiacal = propmt
