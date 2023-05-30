@@ -179,7 +179,3 @@ switch (elementoEvolución) {
         console.log("Tu Eevee ha evolucionado a Jolteon");
         break;
 }
-
-//Horóscopo
-
-var signoZodiacal = propmt

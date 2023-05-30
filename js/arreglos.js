@@ -105,3 +105,65 @@ console.log(listaDeComprasDeLaQuincena.indexOf("Chicharrones"));
 console.log("Resumen de compra");
 //Metodo para unir elementos de un arreglo en una cadena de texto
 console.log(listaDeComprasDeLaQuincena.join(" *** "));
+//Ver métodos reverse, sort, toStrig, splice
+
+//Método para modificar un array (eliminando, reemplazando y agregando elementos)
+console.log(listaDeComprasDeLaQuincena.splice(3, 1)); //Aquí borró un elemento a partir del elemento 3 que fue Mazapán
+
+console.log(listaDeComprasDeLaQuincena.splice(3, 1, "uvas")); //Este afectará a manzanas porque ya ocupaba el elemento 3
+
+console.log(listaDeComprasDeLaQuincena.splice(6,0, "brócoli","zanahorias")); //Aquí se agregaron dos elementos más después de la posición 6. Se debe usar cero para indicar que no se está reeemplazando ni eliminando otros elementos.
+
+console.log(listaDeComprasDeLaQuincena);//Aquí ya aparecen todos los cambios realizados.
+
+
+//Método para invertir el orden de los elementos en el array
+console.log(listaDeComprasDeLaQuincena.reverse());
+
+
+//Método para ordenar los elementos de un array alfabéticamente o numéricamente. Este método ordena los elementos como cadenas de texto por defecto, incluso cuando se trata de números.
+console.log(listaDeComprasDeLaQuincena.sort()); //aparecen diferentes porque son dos listas pero sí están ordenadas alfabéticamente
+
+
+//Método para convertir en cadena de texto lo que está dentro del array 
+console.log(listaDeComprasDeLaQuincena.toString());
+
+//Modificacion del arreglo (push, pop, shift, unshift, splice)
+
+//Acceso y busqueda de elemento (indexOf, lastIndexOf, includes)
+
+//Transformacion de los elementos, transforman el arreglo pero no necesariamente modifica los valores(sort, reverse, map, forEach).
+
+//operaciones logicas (every, some)
+
+//creacion de nuevos arreglos(slice, concat, join, reverse)
+
+
+/*splice (agregar, eliminar o reemplazar elementos en posiciones especificas)
+
+sintaxis del splice
+
+array.splice(iniciamos, numeroElementoABorrar, ElementoAInsertar, ElementoAInsertar)
+
+*/
+
+//splice para borrar elementos
+var abecedario = ["A", "B", "C", "D", "E"]
+
+
+abecedario.splice(2,2);
+console.log(abecedario);
+
+abecedario.splice(2,0, "C", "D");
+
+console.log(abecedario);
+
+//splice para reemplazar elemntos del arreglo
+
+var vocales=["A", "E", "I", "O", "U"]
+
+vocales.splice(1,2, "comer","comer","comer");
+
+console.log(vocales)
+
+

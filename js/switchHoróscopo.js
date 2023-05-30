@@ -1,5 +1,5 @@
 var signoZodiacal = prompt("Ingresa tu signo zodiacal")
-
+     
 switch (signoZodiacal) {
     case "Aries":
         console.log("03210419");
