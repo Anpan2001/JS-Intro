@@ -85,4 +85,4 @@ if (esNumeroPrimo) {
 } else {
     console.log(numeroIngresado + " no es un numero primo.");
 }
-+/
+*/
