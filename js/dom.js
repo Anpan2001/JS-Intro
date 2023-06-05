@@ -65,15 +65,10 @@ botanColorCh.addEventListener("click", function () {
 });
 
 const div = document.createElement("div");
-
 document.body.appendChild(div);
 
-Guadalajara.CasaFelipe.Cocina.appendChild(div);
-
-// Iro Creo La imagen que ira dentro del documento
 var appendImg = document.createElement("img");
 appendImg.src = "https://cdns-images.dzcdn.net/images/artist/098ea0886f463cf48b75d2af855ad3b9/500x500.jpg";
 appendImg.alt = "Imagen Sorpresa";
 
-// Insert the image into the document
-document.body.appendChild(appendimg);  
+div.appendChild(appendImg);

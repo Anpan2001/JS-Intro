@@ -58,21 +58,10 @@ var valorContador = 0;
 function add() {
     valorContador++;
     númeroContador.innerHTML = valorContador;
-    if (valorContador ===10){
-    showImg()
+    if (valorContador === 10) {
+        showImg()
     }
 }
-
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
 
 function dec() {
     valorContador--;
