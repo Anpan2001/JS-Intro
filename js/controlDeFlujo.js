@@ -170,7 +170,7 @@ switch (pisoDestino) {
 //Eevee
 var elementoEvolución = prompt("Ingresa el elemento con el que evolucianarás a tu Pokémon")
 
-switch (elementoEvolución) { 
+switch (elementoEvolución) {
     case "piedraFuego":
         console.log("Tu Eevee ha evolucionado a Flareon");
         break;

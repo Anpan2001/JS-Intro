@@ -20,14 +20,14 @@ let numPayasos = prompt("Ingrese número de payasos");
 const pesoMuñeca = 75;
 const pesoPayaso = 112;
 
-function calcularPeso (){
+function calcularPeso() {
     const totalPesoMuñecas = numMuñecas * pesoMuñeca;
     const totalPesoPayasos = numPayasos * pesoPayaso;
     let totalPedido = totalPesoMuñecas + totalPesoPayasos;
     return totalPedido;
-} 
-      
-alert("El peso total es " + calcularPeso() + " g.")  
-    
+}
+
+alert("El peso total es " + calcularPeso() + " g.")
+
 
 // fd

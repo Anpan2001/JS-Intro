@@ -112,7 +112,7 @@ console.log(listaDeComprasDeLaQuincena.splice(3, 1)); //Aquí borró un elemento
 
 console.log(listaDeComprasDeLaQuincena.splice(3, 1, "uvas")); //Este afectará a manzanas porque ya ocupaba el elemento 3
 
-console.log(listaDeComprasDeLaQuincena.splice(6,0, "brócoli","zanahorias")); //Aquí se agregaron dos elementos más después de la posición 6. Se debe usar cero para indicar que no se está reeemplazando ni eliminando otros elementos.
+console.log(listaDeComprasDeLaQuincena.splice(6, 0, "brócoli", "zanahorias")); //Aquí se agregaron dos elementos más después de la posición 6. Se debe usar cero para indicar que no se está reeemplazando ni eliminando otros elementos.
 
 console.log(listaDeComprasDeLaQuincena);//Aquí ya aparecen todos los cambios realizados.
 
@@ -151,18 +151,18 @@ array.splice(iniciamos, numeroElementoABorrar, ElementoAInsertar, ElementoAInser
 var abecedario = ["A", "B", "C", "D", "E"]
 
 
-abecedario.splice(2,2);
+abecedario.splice(2, 2);
 console.log(abecedario);
 
-abecedario.splice(2,0, "C", "D");
+abecedario.splice(2, 0, "C", "D");
 
 console.log(abecedario);
 
 //splice para reemplazar elemntos del arreglo
 
-var vocales=["A", "E", "I", "O", "U"]
+var vocales = ["A", "E", "I", "O", "U"]
 
-vocales.splice(1,2, "comer","comer","comer");
+vocales.splice(1, 2, "comer", "comer", "comer");
 
 console.log(vocales)
 

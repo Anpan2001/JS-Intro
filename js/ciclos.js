@@ -77,13 +77,13 @@ var ingredientesAgregadosALaOlla = 0;
 
 
 //Mientras los ingredientes agregados a la olla sean menos que los ingredientes que me queden disponibles...
-while (ingredientesAgregadosALaOlla < ingredientes.length){
+while (ingredientesAgregadosALaOlla < ingredientes.length) {
 
     //... ire agregando ingredientes a la olla...
     console.log("Agregando " + ingredientes[ingredientesAgregadosALaOlla] + " a la olla");
 
     //... y voy aumentando el contador para saber cuando parar
-    contador ++;
+    contador++;
 }
 
 console.log("La sopita ya esta lista, yumi");
@@ -111,11 +111,11 @@ var tiempoTranscurridoDeCoccion = 0;
 //usamos el ciclo do-while
 do {
     console.log("Horneando las galletas...");
-    tiempoTranscurridoDeCoccion +=5;
+    tiempoTranscurridoDeCoccion += 5;
 
-//Todo el bloque de codigo se va evaluar mientras el tiempo de coccion sea menor a 30 minutos. Esto es porque las galletas se pueden cocinar en 5, 10, 15, 20 o 25 minutos, teniendo un maximo de 30. Si pasamos de ese tiempo, puede que las galletas se quemen.
+    //Todo el bloque de codigo se va evaluar mientras el tiempo de coccion sea menor a 30 minutos. Esto es porque las galletas se pueden cocinar en 5, 10, 15, 20 o 25 minutos, teniendo un maximo de 30. Si pasamos de ese tiempo, puede que las galletas se quemen.
 
-//Esto es como si revisaramos el horno cada 5 minutos
+    //Esto es como si revisaramos el horno cada 5 minutos
 
 } while (tiempoTranscurridoDeCoccion < 30);
 
@@ -156,7 +156,7 @@ var tiempoPorPaso = [15, 10, 20];
 //Ene el ciclo for, para cada paso, se tiene un tiempo estimado
 
 //Para cada paso de la lista, voy a tomar en cuenta el tiempo que se necesita para hacerlo. Cada que vaya cumpliendo un paso , voy incrementando mi variable paso para saber cuantos pasos me quedan pendientes. Cuando ya no haya pasos, termino el proceso.
-for (var i = 0; i < pasosDeReceta.length; i ++);{
+for (var i = 0; i < pasosDeReceta.length; i++); {
 
     console.log("Realizando paso " + pasosDeReceta[i]);
     console.log("Esperando " + tiempoPorPaso[i] + " minutos");
@@ -168,13 +168,13 @@ console.log("Disfruta tu pizza");
 
 //Ejemplo contador con FOR (contador de cohetes)
 
-for (let i = 10; i > 10; i--){
+for (let i = 10; i > 10; i--) {
     console.log("Faltan " + i + " segundos para el despegue");
 }
 
 
 //ejemplo de for para cupones de descuento
 
-for(let cupones = 10; cupones > 0; cupones --){
-    console.log("Me quedan " + cupones + " cupones")
+for (let cupones = 10; cupones > 0; cupones--) {
+    console.log("Me quedan " + cupones + " cupones")
 }
